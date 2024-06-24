@@ -24,6 +24,7 @@ services:
       - DB_USER=postgres
       - DB_PASSWORD=postgres
       - DB_NAME=postgres
+      - PORT=8080
 
   db:
     image: postgres:latest
